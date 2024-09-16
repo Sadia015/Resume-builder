@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+margin-top: 30px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: rgb(0, 0, 0);
+}
+img{
+ width: 150px;
+ border-radius:40px; 
+ padding-bottom: 20px;
+ margin-right: 50px;
+ margin-top: 10px;
+}
+#ma{
+ width:50%;
+ border: 15px groove rgb(0, 0, 0) ;
+ box-shadow: 15px 15px 5px rgb(217, 217, 227);
+ background-color: rgb(116, 116, 136);
+ margin-left: 70px;
+ border-radius:30px; 
+
+}
+.per{
+display: flex;
+justify-content: space-between;
+align-items: center;
+ }
+.per h1{
+    font-size: 85px;
+    margin-left:50px; }
+
+.per h2{
+    font-size: 60px;
+    margin-top: 5px;
+    margin-left:80px; }
+    .sp{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+        border-top: 3px solid;
+        border-bottom: 3px solid;
+        background-color: rgb(32, 35, 37);
+        color: white;
+
+    }
+    .p{
+        display: inline-block;
+        font-weight:bolder;
+        font-size:30px;
+    }
+    .h{
+        font-size: 40px;
+        background-color:black;
+        color: aliceblue;
+        padding:10px;
+        margin-top: 10px;
+    }
+  .pa{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+  }  
+  .head{
+    font-size: 40px;
+    background-color:black;
+    color: aliceblue;
+    padding:10px;
+    margin-top:20px;
+  }
+  .sk{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  #skill ul{
+    margin-left: 20px;
+  }
+  .o{
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+
+
+  }
+  .btn{
+    padding: 15px;
+    width:1300px; 
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    /* border: 8px solid white; */
+    margin-left: 80px;
+    margin-top: 10px;
+  }
+  .b{
+    padding: 10px;
+    width:1200px; 
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 80px;
+    border: 8px solid rgb(255, 245, 245);
+    font-family: 'Times New Roman', Times, serif;
+     text-transform: uppercase; 
+    margin: 20px;
+    background-color:black;
+    color: aliceblue;
+  }
+  .b:hover{
+    transform: scale(1.4);
+  }
+#objsec{
+  display: block;
+}
+#edusec{
+  display: block;
+}
+#skill{
+  display: block;
+}
+#worksec{
+  display: block;
+}
